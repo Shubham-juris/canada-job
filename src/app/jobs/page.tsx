@@ -64,6 +64,14 @@ export default function JobsPage() {
           </p>
         </header>
 
+        {searchQuery && (
+          <div className="text-center mb-8">
+            <p className="text-lg text-muted-foreground">
+              Showing results for: <span className="font-semibold text-primary">{searchQuery}</span>
+            </p>
+          </div>
+        )}
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
           <div className="md:col-span-1">
             <Card>
