@@ -63,5 +63,21 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a NextJS starter in Firebase Studio.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham-juris/canada-job.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubham-juris/canada-job/issues"
+  },
+  "homepage": "https://github.com/Shubham-juris/canada-job#readme"
 }

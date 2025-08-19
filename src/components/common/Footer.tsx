@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import logo from '@/assets/logo.png';
 import { Mountain, Linkedin, Twitter, Facebook } from 'lucide-react';
 
 export function Footer() {
@@ -8,7 +10,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <Mountain className="h-8 w-8 text-primary" />
+              <div className="relative w-24 h-24">
+                <Image src={logo} alt="Canada Jobs Logo" fill className="object-contain h-62 w-62" />
+              </div>
               <span className="text-xl font-bold">Canada Jobs</span>
             </Link>
             <p className="text-muted-foreground text-sm">
@@ -31,7 +35,7 @@ export function Footer() {
               <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Career Advice</Link></li>
             </ul>
           </div>
-           <div>
+          <div>
             <h3 className="text-sm font-semibold text-foreground tracking-wider uppercase">Follow Us</h3>
             <div className="flex mt-4 space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-primary">

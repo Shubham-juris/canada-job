@@ -1,10 +1,12 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, Mountain } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import logo from '@/assets/logo.png';
 
 export function Header() {
   const pathname = usePathname();
@@ -18,10 +20,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Mountain className="h-6 w-6 text-primary" />
-          <span className="font-bold sm:inline-block">Canada Jobs</span>
-        </Link>
+      
+
+<Link href="/" className="mr-6 flex items-center space-x-2">
+  <div className="relative w-24 h-24">
+    <Image src={logo} alt="Canada Jobs Logo" fill className="object-contain h-62 w-62" />
+  </div>
+  <span className="font-bold sm:inline-block">Canada Jobs</span>
+</Link>
+
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {navLinks.map((link) => (
             <Link
@@ -47,7 +54,9 @@ export function Header() {
             <SheetContent side="left">
               <div className="flex flex-col p-6">
                 <Link href="/" className="mr-6 mb-8 flex items-center space-x-2">
-                  <Mountain className="h-6 w-6 text-primary" />
+                    <div className="relative w-24 h-24">
+    <Image src={logo} alt="Canada Jobs Logo" fill className="object-contain h-62 w-62" />
+  </div>
                   <span className="font-bold">Canada Jobs</span>
                 </Link>
                 <nav className="flex flex-col space-y-4">
