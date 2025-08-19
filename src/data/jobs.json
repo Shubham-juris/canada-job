@@ -8,7 +8,7 @@
     "salary": "$120,000 - $150,000",
     "type": "Full-time",
     "category": "IT",
-    "postedDate": "2024-05-20",
+    "postedDate": "2025-03-15",
     "description": "We are seeking a highly skilled Senior Frontend Developer to join our dynamic team. You will be responsible for developing and implementing user interface components using React.js concepts and workflows such as Redux, Flux, and Webpack.",
     "responsibilities": [
       "Developing new user-facing features using React.js",
@@ -31,7 +31,7 @@
     "salary": "$85,000 - $105,000",
     "type": "Full-time",
     "category": "Healthcare",
-    "postedDate": "2024-05-19",
+    "postedDate": "2025-03-20",
     "description": "HealWell Hospital is looking for a compassionate and experienced Registered Nurse to provide outstanding patient care. The ideal candidate will be responsible for assessing patient health problems and needs, developing and implementing nursing care plans, and maintaining medical records.",
     "responsibilities": [
       "Administer nursing care to ill, injured, or disabled patients",
@@ -54,7 +54,7 @@
     "salary": "$90,000 - $110,000",
     "type": "Full-time",
     "category": "Finance",
-    "postedDate": "2024-05-21",
+    "postedDate": "2025-04-01",
     "description": "We are looking for a Financial Analyst to provide accurate and data-based information on company’s profitability, solvency, stability, and liquidity. You will research and analyze financial information to help the company make well-informed decisions, write reports, and monitor financial movements.",
     "responsibilities": [
       "Analyze financial data and create financial models for decision support",
@@ -77,7 +77,7 @@
     "salary": "$95,000 - $125,000",
     "type": "Contract",
     "category": "Engineering",
-    "postedDate": "2024-05-18",
+    "postedDate": "2025-04-10",
     "description": "BuildRight Constructions is hiring a Civil Engineer to manage, design, develop, create and maintain a large range of projects in a safe, timely and sustainable manner. You will be tasked with working on a variety of projects, from conception to completion.",
     "responsibilities": [
       "Manage, design, develop, create and maintain small-scale through to large-scale construction projects",
@@ -100,7 +100,7 @@
     "salary": "$100,000 - $130,000",
     "type": "Full-time",
     "category": "Marketing",
-    "postedDate": "2024-05-22",
+    "postedDate": "2025-04-22",
     "description": "Creative Ads Co. is in search of a Marketing Manager to lead our marketing team. You will be responsible for developing, implementing and executing strategic marketing plans for an entire organization (or lines of business and brands within an organization) in order to attract potential customers and retain existing ones.",
      "responsibilities": [
       "Developing strategies and tactics to get the word out about our company and drive qualified traffic to our front door",
@@ -123,7 +123,7 @@
     "salary": "$110,000 - $140,000",
     "type": "Full-time",
     "category": "IT",
-    "postedDate": "2024-05-17",
+    "postedDate": "2025-05-05",
     "description": "We are looking for a Data Scientist to analyze large amounts of raw information to find patterns that will help improve our company. We will rely on you to build data products to extract valuable business insights. In this role, you should be highly analytical with a knack for analysis, math, and statistics.",
      "responsibilities": [
       "Identify valuable data sources and automate collection processes",
@@ -146,7 +146,7 @@
     "salary": "$95,000 - $115,000",
     "type": "Full-time",
     "category": "IT",
-    "postedDate": "2024-05-23",
+    "postedDate": "2025-05-15",
     "description": "Join our innovative team as a Software Developer, where you will design, develop, and maintain software applications that meet user needs. You will work with a team of skilled engineers to deliver high-quality software solutions.",
     "responsibilities": [
       "Write clean, scalable code using .NET framework",
@@ -169,7 +169,7 @@
     "salary": "$60,000 - $75,000",
     "type": "Full-time",
     "category": "Management",
-    "postedDate": "2024-05-22",
+    "postedDate": "2025-05-28",
     "description": "A dynamic company is looking for an organized and experienced Office Manager to oversee the administrative operations of our office. The ideal candidate will be a master of multitasking with a friendly and professional demeanor.",
     "responsibilities": [
       "Manage office supplies inventory and place orders as necessary",
@@ -192,7 +192,7 @@
     "salary": "$40,000 - $48,000",
     "type": "Part-time",
     "category": "Clerical",
-    "postedDate": "2024-05-21",
+    "postedDate": "2025-06-02",
     "description": "We are seeking a welcoming and efficient Receptionist to be the first point of contact for our company. You will handle front desk duties and provide administrative support across the organization.",
     "responsibilities": [
       "Greet and welcome guests as soon as they arrive at the office",
@@ -215,7 +215,7 @@
     "salary": "$70,000 - $90,000",
     "type": "Full-time",
     "category": "Finance",
-    "postedDate": "2024-05-20",
+    "postedDate": "2025-06-18",
     "description": "FinancePro is hiring an Accountant to manage all financial transactions, from fixed payments and variable expenses to bank deposits and budgets. The ideal candidate will have a strong background in accounting and a keen eye for detail.",
     "responsibilities": [
       "Manage all accounting transactions",
@@ -238,7 +238,7 @@
     "salary": "$45,000 - $55,000",
     "type": "Full-time",
     "category": "Healthcare",
-    "postedDate": "2024-05-19",
+    "postedDate": "2025-07-01",
     "description": "Our busy clinic is looking for a Medical Office Assistant to help with the administrative and clinical tasks. You will be responsible for managing patient appointments, processing insurance information, and providing excellent patient service.",
     "responsibilities": [
       "Greeting patients and answering phone calls",
@@ -261,7 +261,7 @@
     "salary": "$65,000 - $80,000",
     "type": "Full-time",
     "category": "Hospitality",
-    "postedDate": "2024-05-18",
+    "postedDate": "2025-07-10",
     "description": "The Grand Bistro is seeking an experienced Restaurant Manager to lead our team. The ideal candidate will have a passion for hospitality and a proven track record of success in restaurant management.",
     "responsibilities": [
       "Coordinate daily Front of the House and Back of the House restaurant operations",
@@ -274,6 +274,604 @@
       "Meal discounts",
       "Health benefits",
       "Vibrant and exciting work environment"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Web Developer (React/Next.js)",
+    "company": "Future Web",
+    "location": "Remote",
+    "salary": "$100,000 - $130,000",
+    "type": "Remote",
+    "category": "IT",
+    "postedDate": "2025-03-05",
+    "description": "Seeking a talented Web Developer specializing in React and Next.js to build modern, server-rendered web applications. You'll work on exciting projects and collaborate with a passionate team.",
+    "responsibilities": [
+      "Develop and maintain web applications using React and Next.js",
+      "Ensure the technical feasibility of UI/UX designs",
+      "Optimize applications for maximum speed and scalability",
+      "Collaborate with other team members and stakeholders"
+    ],
+    "benefits": [
+      "Fully remote work opportunity",
+      "Flexible working hours",
+      "Health and wellness stipend",
+      "Latest technology stack"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Full Stack Developer",
+    "company": "Innovatech",
+    "location": "Waterloo, ON",
+    "salary": "$110,000 - $140,000",
+    "type": "Full-time",
+    "category": "IT",
+    "postedDate": "2025-03-12",
+    "description": "Innovatech is looking for a Full Stack Developer to join our growing team. You will be responsible for both front-end and back-end development, working on all layers of our application stack.",
+    "responsibilities": [
+      "Design and develop scalable web applications",
+      "Work with databases and server-side languages",
+      "Implement user interfaces and ensure responsiveness",
+      "Participate in the entire application lifecycle"
+    ],
+    "benefits": [
+      "Competitive salary and equity",
+      "Comprehensive benefits package",
+      "Catered lunches and snacks",
+      "Team-building events"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Data Analyst",
+    "company": "Data Insights",
+    "location": "Ottawa, ON",
+    "salary": "$80,000 - $100,000",
+    "type": "Full-time",
+    "category": "IT",
+    "postedDate": "2025-04-18",
+    "description": "We are looking for a Data Analyst to join our team. The successful candidate will turn data into information, information into insight, and insight into business decisions.",
+    "responsibilities": [
+      "Interpret data, analyze results using statistical techniques",
+      "Develop and implement databases, data collection systems, data analytics",
+      "Acquire data from primary or secondary data sources",
+      "Identify, analyze, and interpret trends or patterns in complex data sets"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health and dental insurance",
+      "Paid time off",
+      "Professional development"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "IT Support Specialist",
+    "company": "Tech Solutions Inc.",
+    "location": "Toronto, ON",
+    "salary": "$60,000 - $75,000",
+    "type": "Full-time",
+    "category": "IT",
+    "postedDate": "2025-05-25",
+    "description": "Tech Solutions Inc. is seeking an IT Support Specialist to provide technical assistance and support to our employees. You will be the first point of contact for all IT-related queries.",
+    "responsibilities": [
+      "Provide technical assistance with computer hardware and software",
+      "Resolve issues for users in a timely manner",
+      "Install, modify, and repair computer hardware and software",
+      "Maintain daily performance of computer systems"
+    ],
+    "benefits": [
+      "Comprehensive benefits package",
+      "Opportunities for growth",
+      "Friendly work environment",
+      "Paid sick leave"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "DevOps Engineer",
+    "company": "CloudFlow",
+    "location": "Remote",
+    "salary": "$130,000 - $160,000",
+    "type": "Remote",
+    "category": "IT",
+    "postedDate": "2025-06-11",
+    "description": "CloudFlow is looking for a DevOps Engineer to help us build functional systems that improve customer experience. You will be responsible for deploying product updates, identifying production issues, and implementing integrations.",
+    "responsibilities": [
+      "Implement and manage CI/CD pipelines",
+      "Monitor and maintain infrastructure",
+      "Automate and improve development and release processes",
+      "Ensure security and compliance"
+    ],
+    "benefits": [
+      "100% remote work",
+      "Competitive salary and stock options",
+      "Unlimited PTO",
+      "Home office setup budget"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Operations Manager",
+    "company": "Admin Experts",
+    "location": "Toronto, ON",
+    "salary": "$80,000 - $100,000",
+    "type": "Full-time",
+    "category": "Management",
+    "postedDate": "2025-06-21",
+    "description": "We are looking for an Operations Manager to join our team. The ideal candidate will be a strong leader with a proven ability to manage and improve operational processes.",
+    "responsibilities": [
+      "Improve operational management systems, processes and best practices",
+      "Help the organization’s processes remain legally compliant",
+      "Formulate strategic and operational objectives",
+      "Manage budgets and forecasts"
+    ],
+    "benefits": [
+      "Competitive compensation",
+      "Health and wellness programs",
+      "Career development opportunities",
+      "Paid time off"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Project Manager",
+    "company": "BuildRight Constructions",
+    "location": "Montreal, QC",
+    "salary": "$100,000 - $130,000",
+    "type": "Contract",
+    "category": "Management",
+    "postedDate": "2025-07-03",
+    "description": "BuildRight Constructions is looking for an experienced Project Manager to plan and oversee a wide variety of construction projects from beginning to end.",
+    "responsibilities": [
+      "Collaborate with engineers, architects etc. to determine the specifications of the project",
+      "Negotiate contracts with external vendors to reach profitable agreements",
+      "Obtain permits and licenses from appropriate authorities",
+      "Determine needed resources (manpower, equipment and materials) from start to finish with attention to budgetary limitations"
+    ],
+    "benefits": [
+      "Project completion bonus",
+      "Health insurance",
+      "Travel allowance",
+      "Professional growth"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "HR Manager",
+    "company": "PeopleFirst HR",
+    "location": "Vancouver, BC",
+    "salary": "$90,000 - $110,000",
+    "type": "Full-time",
+    "category": "Management",
+    "postedDate": "2025-07-14",
+    "description": "We are looking for an HR Manager to oversee all aspects of human resources practices and processes. You will support business needs and ensure the proper implementation of company strategy and objectives.",
+    "responsibilities": [
+      "Develop and implement HR strategies and initiatives aligned with the overall business strategy",
+      "Bridge management and employee relations by addressing demands, grievances or other issues",
+      "Manage the recruitment and selection process",
+      "Support current and future business needs through the development, engagement, motivation and preservation of human capital"
+    ],
+    "benefits": [
+      "Competitive salary and bonus",
+      "Comprehensive benefits",
+      "RRSP matching",
+      "Supportive work culture"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Administrative Manager",
+    "company": "Global Corp.",
+    "location": "Vancouver, BC",
+    "salary": "$65,000 - $80,000",
+    "type": "Full-time",
+    "category": "Management",
+    "postedDate": "2025-03-25",
+    "description": "Global Corp. is hiring an Administrative Manager to supervise the daily support operations of our company and plan the most efficient administrative procedures. You will lead a team of professionals to complete a range of administrative duties in different departments.",
+    "responsibilities": [
+      "Plan and coordinate administrative procedures and systems and devise ways to streamline processes",
+      "Recruit and train personnel and allocate responsibilities and office space",
+      "Assess staff performance and provide coaching and guidance to ensure maximum efficiency",
+      "Ensure the smooth and adequate flow of information within the company to facilitate other business operations"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health benefits",
+      "Paid time off",
+      "Career advancement"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Office Administration Manager",
+    "company": "Admin Experts",
+    "location": "Toronto, ON",
+    "salary": "$70,000 - $85,000",
+    "type": "Full-time",
+    "category": "Management",
+    "postedDate": "2025-04-02",
+    "description": "We are looking for an Office Administration Manager to join our team. You will be responsible for managing office activities and operations while providing support to our staff.",
+    "responsibilities": [
+      "Supervise administrative staff and divide responsibilities to ensure performance",
+      "Manage phone calls and correspondence (e-mail, letters, packages etc.)",
+      "Support budgeting and bookkeeping procedures",
+      "Create and update records and databases with personnel, financial and other data"
+    ],
+    "benefits": [
+      "Competitive salary package",
+      "Health and dental insurance",
+      "Paid vacation",
+      "Positive work environment"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Front Desk Receptionist",
+    "company": "The Grand Bistro",
+    "location": "Toronto, ON",
+    "salary": "$42,000 - $50,000",
+    "type": "Full-time",
+    "category": "Clerical",
+    "postedDate": "2025-04-12",
+    "description": "The Grand Bistro is looking for a friendly and professional Front Desk Receptionist. You will be the first point of contact for our guests, providing a warm welcome and handling all front desk operations.",
+    "responsibilities": [
+      "Welcome guests and provide them with information about the restaurant",
+      "Manage reservations and seating arrangements",
+      "Answer phone calls and respond to inquiries",
+      "Process payments and manage the cash register"
+    ],
+    "benefits": [
+      "Competitive hourly wage",
+      "Meal discounts",
+      "Fun and dynamic work environment",
+      "Opportunities for advancement"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Hotel Front Desk Clerk",
+    "company": "City Center Hotel",
+    "location": "Montreal, QC",
+    "salary": "$38,000 - $45,000",
+    "type": "Full-time",
+    "category": "Clerical",
+    "postedDate": "2025-05-01",
+    "description": "City Center Hotel is looking for a Hotel Front Desk Clerk to serve as our guests’ first point of contact and manage all aspects of their accommodation. You will handle guest check-ins and check-outs, as well as providing information about our hotel and local attractions.",
+    "responsibilities": [
+      "Perform all check-in and check-out tasks",
+      "Manage online and phone reservations",
+      "Inform customers about payment methods and verify their credit card data",
+      "Welcome guests upon their arrival and assign rooms"
+    ],
+    "benefits": [
+      "Health benefits",
+      "Paid time off",
+      "Hotel discounts",
+      "Friendly team"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Office Clerk",
+    "company": "FinancePro",
+    "location": "Calgary, AB",
+    "salary": "$35,000 - $42,000",
+    "type": "Part-time",
+    "category": "Clerical",
+    "postedDate": "2025-05-18",
+    "description": "FinancePro is looking for an Office Clerk to perform various administrative and clerical tasks to support our office. You will undertake a variety of activities in the office ranging from filing and answering the phone to basic bookkeeping.",
+    "responsibilities": [
+      "Maintain files and records so they remain updated and easily accessible",
+      "Answer the phone to take messages or redirect calls to appropriate colleagues",
+      "Utilize office appliances such as photocopier, printers etc. and computers for word processing, spreadsheet creation etc.",
+      "Undertake basic bookkeeping tasks and issue invoices, checks etc."
+    ],
+    "benefits": [
+      "Flexible hours",
+      "Competitive wage",
+      "Friendly office",
+      "Gain valuable experience"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Data Entry Clerk",
+    "company": "Data Insights",
+    "location": "Ottawa, ON",
+    "salary": "$36,000 - $44,000",
+    "type": "Contract",
+    "category": "Clerical",
+    "postedDate": "2025-06-03",
+    "description": "We are looking for a Data Entry Clerk to type information into our database from paper documents. The ideal candidate will be computer savvy and a fast typist with a keen eye for detail.",
+    "responsibilities": [
+      "Transfer data from paper formats into computer files or database systems",
+      "Type in data provided directly from customers",
+      "Create spreadsheets with large numbers of figures without mistakes",
+      "Verify data by comparing it to source documents"
+    ],
+    "benefits": [
+      "Contract-based position",
+      "Flexible schedule",
+      "Work from home options",
+      "Competitive pay"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Accounts Payable Clerk",
+    "company": "FinancePro",
+    "location": "Calgary, AB",
+    "salary": "$45,000 - $55,000",
+    "type": "Full-time",
+    "category": "Clerical",
+    "postedDate": "2025-06-15",
+    "description": "FinancePro is seeking an Accounts Payable Clerk to be responsible for processing all invoices received for payment and for undertaking the payment of all creditors in an accurate, efficient and timely manner.",
+    "responsibilities": [
+      "Process accounts and incoming payments in compliance with financial policies and procedures",
+      "Perform day to day financial transactions, including verifying, classifying, computing, posting and recording accounts receivables’ data",
+      "Prepare bills, invoices and bank deposits",
+      "Reconcile the accounts receivable ledger to ensure that all payments are accounted for and properly posted"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health and dental benefits",
+      "RRSP matching",
+      "Career growth"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Collision Data Clerk",
+    "company": "AutoBody Experts",
+    "location": "Toronto, ON",
+    "salary": "$40,000 - $50,000",
+    "type": "Full-time",
+    "category": "Clerical",
+    "postedDate": "2025-07-07",
+    "description": "AutoBody Experts is looking for a Collision Data Clerk to join our team. You will be responsible for accurately entering and managing data related to vehicle collisions and repairs.",
+    "responsibilities": [
+      "Enter data from collision reports into our system",
+      "Verify accuracy of data and correct any errors",
+      "Maintain and update customer and vehicle records",
+      "Generate reports and assist with administrative tasks"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health benefits",
+      "Paid time off",
+      "Supportive team environment"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Customer Service Clerk",
+    "company": "Retail Giant",
+    "location": "Vancouver, BC",
+    "salary": "$38,000 - $46,000",
+    "type": "Full-time",
+    "category": "Clerical",
+    "postedDate": "2025-07-19",
+    "description": "Retail Giant is seeking a Customer Service Clerk to provide excellent service to our customers. You will handle inquiries, resolve complaints, and process transactions.",
+    "responsibilities": [
+      "Manage large amounts of incoming calls and customer inquiries",
+      "Identify and assess customers’ needs to achieve satisfaction",
+      "Build sustainable relationships and trust with customer accounts through open and interactive communication",
+      "Provide accurate, valid and complete information by using the right methods/tools"
+    ],
+    "benefits": [
+      "Competitive wage",
+      "Employee discounts",
+      "Health and dental insurance",
+      "Fun work environment"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Administrative Support Clerk",
+    "company": "Global Corp.",
+    "location": "Vancouver, BC",
+    "salary": "$40,000 - $48,000",
+    "type": "Full-time",
+    "category": "Clerical",
+    "postedDate": "2025-03-28",
+    "description": "Global Corp. is looking for an Administrative Support Clerk to join our team. You will perform a variety of administrative and clerical tasks to support our staff and office operations.",
+    "responsibilities": [
+      "Answer and direct phone calls",
+      "Organize and schedule appointments",
+      "Write and distribute email, correspondence memos, letters, faxes and forms",
+      "Assist in the preparation of regularly scheduled reports"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health benefits",
+      "Paid time off",
+      "Opportunities for advancement"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Bookkeeper",
+    "company": "FinancePro",
+    "location": "Calgary, AB",
+    "salary": "$55,000 - $65,000",
+    "type": "Full-time",
+    "category": "Finance",
+    "postedDate": "2025-04-08",
+    "description": "FinancePro is looking for a skilled Bookkeeper to maintain our financial records, including purchases, sales, receipts and payments. You will work closely with our accounting team to create and analyze financial reports and ensure legal compliance.",
+    "responsibilities": [
+      "Record day to day financial transactions and complete the posting process",
+      "Verify that transactions are recorded in the correct day book, suppliers ledger, customer ledger and general ledger",
+      "Bring the books to the trial balance stage",
+      "Perform partial checks of the posting process"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health and dental insurance",
+      "RRSP matching",
+      "Paid vacation"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Business Analyst",
+    "company": "Innovatech",
+    "location": "Waterloo, ON",
+    "salary": "$90,000 - $110,000",
+    "type": "Full-time",
+    "category": "Finance",
+    "postedDate": "2025-04-20",
+    "description": "Innovatech is looking for a Business Analyst to join our team. You will be the vital link between our information technology capacity and our business objectives by supporting and ensuring the successful completion of analytical, building, testing and deployment tasks of our software product’s features.",
+    "responsibilities": [
+      "Define configuration specifications and business analysis requirements",
+      "Perform quality assurance",
+      "Define reporting and alerting requirements",
+      "Own and develop relationship with partners, working with them to optimize and enhance our integration"
+    ],
+    "benefits": [
+      "Competitive salary and bonus",
+      "Comprehensive benefits",
+      "Flexible work hours",
+      "Dynamic team"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Healthcare Assistant",
+    "company": "HealWell Hospital",
+    "location": "Vancouver, BC",
+    "salary": "$45,000 - $55,000",
+    "type": "Full-time",
+    "category": "Healthcare",
+    "postedDate": "2025-05-12",
+    "description": "HealWell Hospital is looking for a Healthcare Assistant to support our nursing staff in providing patient care. You will help patients with their basic needs and ensure they are comfortable.",
+    "responsibilities": [
+      "Assist patients with personal care and daily activities",
+      "Monitor patient conditions and report changes to the nursing staff",
+      "Help with patient mobility and transport",
+      "Maintain a clean and safe environment for patients"
+    ],
+    "benefits": [
+      "Competitive wage",
+      "Health and dental benefits",
+      "Paid time off",
+      "Rewarding work"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Lab Technician",
+    "company": "Wellness Clinic",
+    "location": "Montreal, QC",
+    "salary": "$50,000 - $60,000",
+    "type": "Full-time",
+    "category": "Healthcare",
+    "postedDate": "2025-06-08",
+    "description": "Wellness Clinic is seeking a Lab Technician to join our team. You will be responsible for receiving, testing, analyzing, recording and reporting results of laboratory tests.",
+    "responsibilities": [
+      "Receive, label and analyze samples (blood, toxic, tissue etc.)",
+      "Design and execute laboratory testing according standard procedures",
+      "Conduct experiments under defined conditions to verify/reject various types of hypotheses using refined scientific methods",
+      "Organize and store all chemicals substances, fluids and compressed gases according to safety instructions"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health benefits",
+      "Paid vacation",
+      "State-of-the-art lab"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Sales Manager",
+    "company": "Retail Giant",
+    "location": "Vancouver, BC",
+    "salary": "$70,000 - $90,000",
+    "type": "Full-time",
+    "category": "Hospitality",
+    "postedDate": "2025-06-25",
+    "description": "Retail Giant is looking for a Sales Manager to lead our sales team. You will be responsible for setting sales goals, coaching and motivating our sales staff, and developing strategies to increase sales.",
+    "responsibilities": [
+      "Achieve growth and hit sales targets by successfully managing the sales team",
+      "Design and implement a strategic business plan that expands company’s customer base and ensure its strong presence",
+      "Own recruiting, objectives setting, coaching and performance monitoring of sales representatives",
+      "Build and promote strong, long-lasting customer relationships by partnering with them and understanding their needs"
+    ],
+    "benefits": [
+      "Competitive salary and commission",
+      "Health and dental insurance",
+      "Employee discounts",
+      "Career growth"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Cashier",
+    "company": "FreshMart",
+    "location": "Toronto, ON",
+    "salary": "$18 - $22/hour",
+    "type": "Part-time",
+    "category": "Hospitality",
+    "postedDate": "2025-07-12",
+    "description": "FreshMart is looking for a friendly and efficient Cashier to join our team. You will be responsible for processing customer transactions, handling cash and credit card payments, and providing excellent customer service.",
+    "responsibilities": [
+      "Scan goods and ensure pricing is accurate",
+      "Collect payments whether in cash or credit",
+      "Issue receipts, refunds, change or tickets",
+      "Redeem stamps and coupons"
+    ],
+    "benefits": [
+      "Competitive hourly wage",
+      "Flexible schedule",
+      "Employee discount",
+      "Friendly work environment"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Sales Associate",
+    "company": "Fashion Forward",
+    "location": "Montreal, QC",
+    "salary": "$17 - $20/hour + commission",
+    "type": "Part-time",
+    "category": "Hospitality",
+    "postedDate": "2025-07-22",
+    "description": "Fashion Forward is looking for a stylish and energetic Sales Associate to join our team. You will assist customers with their purchases, provide fashion advice, and help maintain the store's appearance.",
+    "responsibilities": [
+      "Welcome and greet customers",
+      "Ensure high levels of customer satisfaction through excellent sales service",
+      "Ascertain customers’ needs and wants",
+      "Recommend and display items that match customer needs"
+    ],
+    "benefits": [
+      "Competitive wage and commission",
+      "Employee discount on merchandise",
+      "Fun and fashionable work environment",
+      "Opportunities for growth"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Store Manager",
+    "company": "Home Goods Emporium",
+    "location": "Calgary, AB",
+    "salary": "$60,000 - $75,000",
+    "type": "Full-time",
+    "category": "Hospitality",
+    "postedDate": "2025-04-15",
+    "description": "Home Goods Emporium is looking for a Store Manager to lead our team. You will be responsible for the overall management of the store, including sales, staff, and operations.",
+    "responsibilities": [
+      "Develop business strategies to raise our customers’ pool, expand store traffic and optimize profitability",
+      "Meet sales goals by training, motivating, mentoring and providing feedback to sales staff",
+      "Ensure high levels of customers satisfaction through excellent service",
+      "Complete store administration and ensure compliance with policies and procedures"
+    ],
+    "benefits": [
+      "Competitive salary and bonus",
+      "Health and dental benefits",
+      "Paid time off",
+      "Employee discount"
     ]
   }
 ]
