@@ -9,4 +9,5 @@ export interface Job {
   description: string;
   responsibilities: string[];
   benefits: string[];
+  category?: string;
 }

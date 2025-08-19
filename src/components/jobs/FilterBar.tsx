@@ -1,6 +1,15 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 
-export function FilterBar() {
+interface FilterBarProps {
+  selectedTypes: string[];
+  onTypeChange: (type: string) => void;
+  selectedCategories: string[];
+  onCategoryChange: (category: string) => void;
+}
+
+export function FilterBar({ selectedTypes, onTypeChange, selectedCategories, onCategoryChange }: FilterBarProps) {
   const jobTypes = ["Full-time", "Part-time", "Contract", "Remote"];
   const categories = ["IT", "Healthcare", "Finance", "Engineering"];
 
@@ -10,7 +19,13 @@ export function FilterBar() {
         <h3 className="font-semibold mb-2">Job Type</h3>
         <div className="flex flex-wrap gap-2">
           {jobTypes.map(type => (
-            <Button key={type} variant="outline">{type}</Button>
+            <Button
+              key={type}
+              variant={selectedTypes.includes(type) ? "default" : "outline"}
+              onClick={() => onTypeChange(type)}
+            >
+              {type}
+            </Button>
           ))}
         </div>
       </div>
@@ -18,7 +33,13 @@ export function FilterBar() {
         <h3 className="font-semibold mb-2">Category</h3>
         <div className="flex flex-wrap gap-2">
           {categories.map(category => (
-            <Button key={category} variant="outline">{category}</Button>
+            <Button
+              key={category}
+              variant={selectedCategories.includes(category) ? "default" : "outline"}
+              onClick={() => onCategoryChange(category)}
+            >
+              {category}
+            </Button>
           ))}
         </div>
       </div>

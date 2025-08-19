@@ -7,6 +7,7 @@
     "location": "Toronto, ON",
     "salary": "$120,000 - $150,000",
     "type": "Full-time",
+    "category": "IT",
     "postedDate": "2024-05-20",
     "description": "We are seeking a highly skilled Senior Frontend Developer to join our dynamic team. You will be responsible for developing and implementing user interface components using React.js concepts and workflows such as Redux, Flux, and Webpack.",
     "responsibilities": [
@@ -29,6 +30,7 @@
     "location": "Vancouver, BC",
     "salary": "$85,000 - $105,000",
     "type": "Full-time",
+    "category": "Healthcare",
     "postedDate": "2024-05-19",
     "description": "HealWell Hospital is looking for a compassionate and experienced Registered Nurse to provide outstanding patient care. The ideal candidate will be responsible for assessing patient health problems and needs, developing and implementing nursing care plans, and maintaining medical records.",
     "responsibilities": [
@@ -51,6 +53,7 @@
     "location": "Calgary, AB",
     "salary": "$90,000 - $110,000",
     "type": "Full-time",
+    "category": "Finance",
     "postedDate": "2024-05-21",
     "description": "We are looking for a Financial Analyst to provide accurate and data-based information on company’s profitability, solvency, stability, and liquidity. You will research and analyze financial information to help the company make well-informed decisions, write reports, and monitor financial movements.",
     "responsibilities": [
@@ -73,6 +76,7 @@
     "location": "Montreal, QC",
     "salary": "$95,000 - $125,000",
     "type": "Contract",
+    "category": "Engineering",
     "postedDate": "2024-05-18",
     "description": "BuildRight Constructions is hiring a Civil Engineer to manage, design, develop, create and maintain a large range of projects in a safe, timely and sustainable manner. You will be tasked with working on a variety of projects, from conception to completion.",
     "responsibilities": [
@@ -95,6 +99,7 @@
     "location": "Toronto, ON",
     "salary": "$100,000 - $130,000",
     "type": "Full-time",
+    "category": "Marketing",
     "postedDate": "2024-05-22",
     "description": "Creative Ads Co. is in search of a Marketing Manager to lead our marketing team. You will be responsible for developing, implementing and executing strategic marketing plans for an entire organization (or lines of business and brands within an organization) in order to attract potential customers and retain existing ones.",
      "responsibilities": [
@@ -117,6 +122,7 @@
     "location": "Ottawa, ON",
     "salary": "$110,000 - $140,000",
     "type": "Full-time",
+    "category": "IT",
     "postedDate": "2024-05-17",
     "description": "We are looking for a Data Scientist to analyze large amounts of raw information to find patterns that will help improve our company. We will rely on you to build data products to extract valuable business insights. In this role, you should be highly analytical with a knack for analysis, math, and statistics.",
      "responsibilities": [

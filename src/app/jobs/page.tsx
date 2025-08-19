@@ -1,3 +1,7 @@
+"use client";
+
+import { useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'next/navigation';
 import jobs from '@/data/jobs.json';
 import { JobCard } from '@/components/jobs/JobCard';
 import { FilterBar } from '@/components/jobs/FilterBar';
@@ -5,7 +9,48 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import type { Job } from '@/lib/types';
 
 export default function JobsPage() {
-  const allJobs: Job[] = jobs;
+  const searchParams = useSearchParams();
+  const [allJobs] = useState<Job[]>(jobs);
+  const [filteredJobs, setFilteredJobs] = useState<Job[]>(allJobs);
+
+  const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  
+  const searchQuery = useMemo(() => searchParams.get('search') || '', [searchParams]);
+
+  useEffect(() => {
+    let jobsToFilter = allJobs;
+
+    if (searchQuery) {
+        jobsToFilter = jobsToFilter.filter(job =>
+        job.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        job.company.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        job.description.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
+
+    if (selectedTypes.length > 0) {
+      jobsToFilter = jobsToFilter.filter(job => selectedTypes.includes(job.type));
+    }
+
+    if (selectedCategories.length > 0) {
+      jobsToFilter = jobsToFilter.filter(job => selectedCategories.some(cat => job.category?.toLowerCase() === cat.toLowerCase()));
+    }
+    
+    setFilteredJobs(jobsToFilter);
+  }, [searchQuery, selectedTypes, selectedCategories, allJobs]);
+
+  const handleTypeChange = (type: string) => {
+    setSelectedTypes(prev =>
+      prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
+    );
+  };
+  
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategories(prev =>
+      prev.includes(category) ? prev.filter(c => c !== category) : [...prev, category]
+    );
+  };
 
   return (
     <div className="bg-secondary/20">
@@ -26,16 +71,31 @@ export default function JobsPage() {
                 <CardTitle>Filter Jobs</CardTitle>
               </CardHeader>
               <CardContent>
-                <FilterBar />
+                <FilterBar
+                  selectedTypes={selectedTypes}
+                  onTypeChange={handleTypeChange}
+                  selectedCategories={selectedCategories}
+                  onCategoryChange={handleCategoryChange}
+                />
               </CardContent>
             </Card>
           </div>
           <main className="md:col-span-3">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              {allJobs.map(job => (
-                <JobCard key={job.id} job={job} />
-              ))}
-            </div>
+             {filteredJobs.length > 0 ? (
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                {filteredJobs.map(job => (
+                  <JobCard key={job.id} job={job} />
+                ))}
+                </div>
+            ) : (
+                <Card>
+                    <CardContent className="pt-6">
+                        <p className="text-center text-muted-foreground">
+                        No jobs found matching your criteria.
+                        </p>
+                    </CardContent>
+                </Card>
+            )}
           </main>
         </div>
       </div>
