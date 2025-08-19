@@ -1,5 +1,31 @@
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Check, Eye, Heart, Lightbulb } from "lucide-react";
+
+const values = [
+  {
+    icon: <Heart className="h-8 w-8 text-primary" />,
+    title: "Integrity",
+    description: "We believe in honest and transparent relationships with both job seekers and employers.",
+  },
+  {
+    icon: <Lightbulb className="h-8 w-8 text-primary" />,
+    title: "Innovation",
+    description: "We continuously seek innovative solutions to improve the job search experience.",
+  },
+  {
+    icon: <Eye className="h-8 w-8 text-primary" />,
+    title: "Transparency",
+    description: "We provide clear and straightforward information to empower your career decisions.",
+  },
+];
+
+const whyChooseUsItems = [
+    "Comprehensive Job Listings",
+    "User-Friendly Interface",
+    "Dedicated Support Team",
+    "Career Development Resources"
+];
 
 export default function AboutPage() {
   return (
@@ -12,7 +38,7 @@ export default function AboutPage() {
       </header>
 
       <div className="container mx-auto py-16">
-        <Card className="overflow-hidden">
+        <Card className="overflow-hidden mb-16">
           <div className="grid md:grid-cols-2">
             <div className="p-8 md:p-12">
               <h2 className="text-3xl font-bold text-primary mb-4">Our Mission</h2>
@@ -39,6 +65,53 @@ export default function AboutPage() {
               />
             </div>
           </div>
+        </Card>
+
+        <section className="mb-16">
+            <h2 className="text-3xl font-bold text-center mb-10 text-primary">Our Values</h2>
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+                {values.map((value) => (
+                    <Card key={value.title} className="hover:shadow-lg transition-shadow">
+                        <CardHeader>
+                            <div className="mx-auto bg-secondary p-4 rounded-full w-fit">
+                                {value.icon}
+                            </div>
+                        </CardHeader>
+                        <CardContent>
+                            <CardTitle className="mb-2">{value.title}</CardTitle>
+                            <p className="text-muted-foreground">{value.description}</p>
+                        </CardContent>
+                    </Card>
+                ))}
+            </div>
+        </section>
+
+        <Card className="bg-secondary/30">
+            <div className="grid md:grid-cols-2 items-center">
+                <div className="p-8 md:p-12">
+                    <h2 className="text-3xl font-bold text-primary mb-4">Why Choose Us?</h2>
+                    <p className="text-muted-foreground mb-6">
+                        We are committed to providing the best platform for your job search in Canada. Here’s what makes us different:
+                    </p>
+                    <ul className="space-y-4">
+                        {whyChooseUsItems.map((item, index) => (
+                            <li key={index} className="flex items-center">
+                                <Check className="h-6 w-6 mr-3 p-1 bg-primary text-primary-foreground rounded-full" />
+                                <span className="text-lg">{item}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                 <div className="relative min-h-[300px] md:min-h-[400px] order-first md:order-last">
+                    <Image
+                        src="https://placehold.co/600x400.png"
+                        alt="Happy professionals"
+                        layout="fill"
+                        objectFit="cover"
+                        data-ai-hint="happy professional"
+                    />
+                </div>
+            </div>
         </Card>
       </div>
     </div>
