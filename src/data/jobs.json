@@ -1,0 +1,135 @@
+
+[
+  {
+    "id": 1,
+    "title": "Senior Frontend Developer",
+    "company": "Tech Solutions Inc.",
+    "location": "Toronto, ON",
+    "salary": "$120,000 - $150,000",
+    "type": "Full-time",
+    "postedDate": "2024-05-20",
+    "description": "We are seeking a highly skilled Senior Frontend Developer to join our dynamic team. You will be responsible for developing and implementing user interface components using React.js concepts and workflows such as Redux, Flux, and Webpack.",
+    "responsibilities": [
+      "Developing new user-facing features using React.js",
+      "Building reusable components and front-end libraries for future use",
+      "Translating designs and wireframes into high-quality code",
+      "Optimizing components for maximum performance across a vast array of web-capable devices and browsers"
+    ],
+    "benefits": [
+      "Competitive salary and performance bonus",
+      "Comprehensive health, dental, and vision insurance",
+      "Flexible work hours and remote work options",
+      "Generous vacation and paid time off"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Registered Nurse",
+    "company": "HealWell Hospital",
+    "location": "Vancouver, BC",
+    "salary": "$85,000 - $105,000",
+    "type": "Full-time",
+    "postedDate": "2024-05-19",
+    "description": "HealWell Hospital is looking for a compassionate and experienced Registered Nurse to provide outstanding patient care. The ideal candidate will be responsible for assessing patient health problems and needs, developing and implementing nursing care plans, and maintaining medical records.",
+    "responsibilities": [
+      "Administer nursing care to ill, injured, or disabled patients",
+      "Monitor and report changes in patient symptoms or behavior",
+      "Communicate with collaborating physicians or specialists regarding patient care",
+      "Educate patients about health maintenance and disease prevention"
+    ],
+    "benefits": [
+      "Health and wellness programs",
+      "Pension plan",
+      "Opportunities for professional development and continuing education",
+      "Supportive and collaborative work environment"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Financial Analyst",
+    "company": "Capital Growth Partners",
+    "location": "Calgary, AB",
+    "salary": "$90,000 - $110,000",
+    "type": "Full-time",
+    "postedDate": "2024-05-21",
+    "description": "We are looking for a Financial Analyst to provide accurate and data-based information on company’s profitability, solvency, stability, and liquidity. You will research and analyze financial information to help the company make well-informed decisions, write reports, and monitor financial movements.",
+    "responsibilities": [
+      "Analyze financial data and create financial models for decision support",
+      "Report on financial performance and prepare for regular leadership reviews",
+      "Analyze past results, perform variance analysis, identify trends, and make recommendations for improvements",
+      "Work closely with the accounting team to ensure accurate financial reporting"
+    ],
+    "benefits": [
+      "Stock options and profit sharing",
+      "Generous RRSP matching program",
+      "Modern office in downtown Calgary",
+      "Company-sponsored social events"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Civil Engineer",
+    "company": "BuildRight Constructions",
+    "location": "Montreal, QC",
+    "salary": "$95,000 - $125,000",
+    "type": "Contract",
+    "postedDate": "2024-05-18",
+    "description": "BuildRight Constructions is hiring a Civil Engineer to manage, design, develop, create and maintain a large range of projects in a safe, timely and sustainable manner. You will be tasked with working on a variety of projects, from conception to completion.",
+    "responsibilities": [
+      "Manage, design, develop, create and maintain small-scale through to large-scale construction projects",
+      "Conduct on-site investigations and analyze data (maps, reports, tests, drawings and other)",
+      "Assess potential risks, materials and costs",
+      "Provide advice and resolve creatively any emerging problems/deficiencies"
+    ],
+    "benefits": [
+      "Project-based bonuses",
+      "Travel and accommodation allowance",
+      "Access to cutting-edge technology and software",
+      "Opportunity to work on landmark projects"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Marketing Manager",
+    "company": "Creative Ads Co.",
+    "location": "Toronto, ON",
+    "salary": "$100,000 - $130,000",
+    "type": "Full-time",
+    "postedDate": "2024-05-22",
+    "description": "Creative Ads Co. is in search of a Marketing Manager to lead our marketing team. You will be responsible for developing, implementing and executing strategic marketing plans for an entire organization (or lines of business and brands within an organization) in order to attract potential customers and retain existing ones.",
+     "responsibilities": [
+      "Developing strategies and tactics to get the word out about our company and drive qualified traffic to our front door",
+      "Deploying successful marketing campaigns and own their implementation from ideation to execution",
+      "Experimenting with a variety of organic and paid acquisition channels",
+      "Measuring and reporting on the performance of marketing campaigns"
+    ],
+    "benefits": [
+       "Creative and dynamic work environment",
+       "Flexible PTO",
+       "Health and dental insurance",
+       "Annual marketing budget for innovative projects"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Data Scientist",
+    "company": "Data Insights",
+    "location": "Ottawa, ON",
+    "salary": "$110,000 - $140,000",
+    "type": "Full-time",
+    "postedDate": "2024-05-17",
+    "description": "We are looking for a Data Scientist to analyze large amounts of raw information to find patterns that will help improve our company. We will rely on you to build data products to extract valuable business insights. In this role, you should be highly analytical with a knack for analysis, math, and statistics.",
+     "responsibilities": [
+      "Identify valuable data sources and automate collection processes",
+      "Undertake preprocessing of structured and unstructured data",
+      "Analyze large amounts of information to discover trends and patterns",
+      "Build predictive models and machine-learning algorithms"
+    ],
+    "benefits": [
+       "Competitive compensation package",
+       "Opportunities for advancement",
+       "Professional development and training",
+       "Work on challenging and impactful projects"
+    ]
+  }
+]
