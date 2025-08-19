@@ -1,12 +1,16 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, HeartPulse, Landmark, Wrench } from "lucide-react";
+import { Briefcase, HeartPulse, Landmark, Wrench, Building, BookUser, Utensils, Sigma } from "lucide-react";
 import Link from "next/link";
 
 const categories = [
   { name: "IT & Technology", icon: Briefcase, href: "/jobs?category=it" },
-  { name: "Healthcare", icon: HeartPulse, href: "/jobs?category=healthcare" },
+  { name: "Management", icon: Building, href: "/jobs?category=management" },
+  { name: "Clerical", icon: BookUser, href: "/jobs?category=clerical" },
   { name: "Finance", icon: Landmark, href: "/jobs?category=finance" },
+  { name: "Healthcare", icon: HeartPulse, href: "/jobs?category=healthcare" },
   { name: "Engineering", icon: Wrench, href: "/jobs?category=engineering" },
+  { name: "Hospitality", icon: Utensils, href: "/jobs?category=hospitality" },
+  { name: "Other", icon: Sigma, href: "/jobs?category=other" },
 ];
 
 export function FeaturedCategories() {

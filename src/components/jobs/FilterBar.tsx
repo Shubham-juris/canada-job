@@ -11,7 +11,7 @@ interface FilterBarProps {
 
 export function FilterBar({ selectedTypes, onTypeChange, selectedCategories, onCategoryChange }: FilterBarProps) {
   const jobTypes = ["Full-time", "Part-time", "Contract", "Remote"];
-  const categories = ["IT", "Healthcare", "Finance", "Engineering"];
+  const categories = ["IT", "Management", "Clerical", "Finance", "Healthcare", "Engineering", "Hospitality", "Marketing"];
 
   return (
     <div className="space-y-4">
